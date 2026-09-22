@@ -1,5 +1,7 @@
 # Evidence Lab — PV portfolio demos
 
+[Open the live demo](https://unravelreggie.github.io/pv-evidence-demos/)
+
 Three interactive, browser-only demonstrations of evidence-centered software design:
 
 1. **PV workflow:** stage-specific evidence and human review gates.
@@ -26,3 +28,7 @@ Then visit `http://localhost:8000`.
 - `styles.css` — responsive presentation
 - `app.js` — local interactions and synthetic examples
 - `.nojekyll` — direct GitHub Pages publishing
+
+## Verification
+
+On 2026-09-22, the Mac mini checkout passed JavaScript syntax and Git whitespace checks. DOM interaction checks covered four workflow stages, five synthetic records, quality flags, language switching, and source search. The published Pages site was opened and checked in desktop and mobile viewports.
